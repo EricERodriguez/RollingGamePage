@@ -237,13 +237,20 @@ body {
 }
 
 .modal-window {
-    background-color: #fff;
+    background: rgb(251,244,255);
+    background: linear-gradient(149deg, rgba(251,244,255,1) 0%, rgba(107,104,108,1) 35%, rgba(143,143,143,1) 100%);
     width: 600px;
     padding: 30px 50px;
     border-radius: 15px;
     box-shadow: 0 5px 10px rgba(228, 252, 239, 0.938);
 }
-
+#modal_datos,#modal_descripcion{
+    color: #000;
+    font-size: 18px;
+}
+#modal_titulo{
+    color: #000;
+}
 .textReference {
     font-size: 18px;
     text-align: center;
@@ -265,7 +272,13 @@ h1,
 h2 {
     color: rgb(255, 216, 157);
 }
-
+h1.title{
+    color: #FFF;
+    margin: 0 auto;
+    font-weight: 700;
+    font: italic bold 100px Georgia, Serif;
+    text-shadow: -4px 3px 0 #3466d1, -14px 7px 0 #260a27;
+}
 .from-text {
     border: none;
     background-color: rgb(228, 228, 228);
@@ -285,14 +298,21 @@ h2 {
 .about-us {
     padding: 3em;
 }
-
+.card{
+    background: rgb(2,0,36);
+    background: linear-gradient(149deg, rgba(2,0,36,1) 0%, rgba(107,104,108,1) 35%, rgba(30,0,46,1) 100%);
+}
 p,
 h3 {
     color: white;
     /* border-bottom: 2px solid white; */
     transition: 0.5s ease;
 }
-
+p.white-with-blue-shadow {
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+    color: white;
+    font: 1.5em Georgia, "Bitstream Charter", "URW Bookman L", "Century Schoolbook L", serif;
+}
 ul {
     list-style: none;
 }
