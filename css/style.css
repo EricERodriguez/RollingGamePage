@@ -316,7 +316,9 @@ p.white-with-blue-shadow {
 ul {
     list-style: none;
 }
-
+a.follow{
+    width: 150px;
+}
 a {
     text-decoration: none;
     color: white;
@@ -327,9 +329,8 @@ a {
 }
 
 a:hover {
-    font-size: 120%;
     transition: 0.2s ease-in;
-    color: violet;
+    color: rgb(47, 61, 255);
 }
 
 @media only screen and (max-width: 640px) {

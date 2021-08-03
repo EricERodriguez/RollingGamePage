@@ -608,7 +608,7 @@ function filtrarSucursalPorPais(sucur) {
 }
 
 function filtrarPorTexto(texto) {
-    let negocios = sucursales.filter((c) => c.nombre.includes(texto));
+    let negocios = sucursales.filter((c) => c.nombre.includes(texto) || c.ubicacion.includes(texto));
     console.log(negocios);
     return negocios;
 }
