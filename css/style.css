@@ -273,6 +273,7 @@ h2 {
     color: rgb(255, 216, 157);
 }
 h1.title{
+    text-align: center;
     color: #FFF;
     margin: 0 auto;
     font-weight: 700;
