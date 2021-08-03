@@ -289,7 +289,7 @@ h2 {
 p,
 h3 {
     color: white;
-    border-bottom: 2px solid white;
+    /* border-bottom: 2px solid white; */
     transition: 0.5s ease;
 }
 
@@ -329,5 +329,11 @@ a:hover {
 @media only screen and (max-width: 768px) {
     .imgLogo {
         width: 50%;
+    }
+    #lacarta {
+        display: none;
+    }
+    #seccionmarg {
+        margin-top: 40%;
     }
 }
