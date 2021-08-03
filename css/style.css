@@ -156,6 +156,9 @@ form {
         width: 100%;
         margin-top: 49px;
     }
+    .imgHide{
+        display: none;
+    }
 }
 
 
@@ -169,6 +172,9 @@ form {
     .destacada {
         width: 100%;
         margin-top: 49px;
+    }
+    .imgHide{
+        display: none;
     }
 }
 
